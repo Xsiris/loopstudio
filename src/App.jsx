@@ -62,7 +62,7 @@ function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<MainLayout />}>
+      <Route path="/loopstudio" element={<MainLayout />}>
           <Route index element={<HomePage /*screenResizeCallback={screenResizeCallbacks}*/ />} />
       </Route>
   ));

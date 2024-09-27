@@ -24,7 +24,7 @@ const Projects = () => {
         <h1 className="text-center text-3xl font-JosefinSans font-extralight mb-6 pt-8 xl:text-4xl">OUR CREATIONS</h1>
       <div className="">
         <div className="text-center">
-            <a href="#" className="text-lg font-Alata tracking-widest font-extralight text-black px-12 py-3 border border-black min-[0px]:max-xl:hidden">SEE ALL</a>
+            <a href="#" className="text-lg font-Alata tracking-widest font-extralight text-black px-12 py-3 border border-black min-[0px]:max-xl:hidden hover:bg-black hover:text-white hover:border-black">SEE ALL</a>
         </div>
       </div>
       </div>
@@ -111,7 +111,7 @@ const Projects = () => {
       </div>
       <div className="p-6 my-6 xl:hidden">
         <div className="text-center">
-            <a href="#" className="text-lg font-Alata tracking-widest font-extralight text-black px-12 py-3 border border-black">SEE ALL</a>
+            <a href="#" className="text-lg font-Alata tracking-widest font-extralight text-black px-12 py-3 border border-black  hover:bg-black hover:text-white hover:border-black">SEE ALL</a>
         </div>
       </div>
     </>
