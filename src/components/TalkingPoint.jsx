@@ -1,13 +1,14 @@
 import React from 'react'
 import interactive from '../img/mobile/image-interactive.jpg'
+import interactiveDesktop from '../img/desktop/image-interactive.jpg'
 
 const TalkingPoint = () => {
   return (
     <div class="px-6 pt-20">
         <div>
-            <img src={interactive} alt="interactive" />
+            <img src={interactive} srcSet={`${interactive} 320w, ${interactiveDesktop} 768w`} alt="interactive" />
         </div>
-        <div className="px-6 py-12 text-center">
+        <div className="px-6 py-12 text-center md:px-12">
             <h1 className="mb-6 font-JosefinSans text-3xl font-extralight leading-8">
                     THE LEADER IN INTERACTIVE VR
             </h1>

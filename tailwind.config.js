@@ -8,7 +8,8 @@ export default {
         "loopVeryDarkGray" : "hsl(0, 0%, 41%)"
       },
       backgroundImage:{
-          'hero-bg' : "url('/src/img/mobile/image-hero.jpg')"
+          'hero-bg' : "url('/src/img/mobile/image-hero.jpg')",
+          'hero-bg-desktop' : "url('/src/img/desktop/image-hero.jpg')",
       }
     },
     fontFamily:{

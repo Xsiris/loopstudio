@@ -8,6 +8,15 @@ import arcade from '../img/mobile/image-night-arcade.jpg'
 import borealis from '../img/mobile/image-pocket-borealis.jpg'
 import soccer from '../img/mobile/image-soccer-team.jpg'
 
+import earthDesktop from '../img/desktop/image-deep-earth.jpg'
+import curiosityDesktop from '../img/desktop/image-curiosity.jpg'
+import fisheyeDesktop from '../img/desktop/image-fisheye.jpg'
+import aboveDesktop from '../img/desktop/image-from-above.jpg'
+import gridDesktop from '../img/desktop/image-grid.jpg'
+import arcadeDesktop from '../img/desktop/image-night-arcade.jpg'
+import borealisDesktop from '../img/desktop/image-pocket-borealis.jpg'
+import soccerDesktop from '../img/desktop/image-soccer-team.jpg'
+
 const Projects = () => {
   return (
     <div className="pt-8 pb-20">
@@ -15,7 +24,7 @@ const Projects = () => {
       <div className="p-6 pb-0">
         <a href="#">
             <div className="relative">
-                <img src={earth} alt="earth" />
+                <img src={earth} srcSet={`${earth} 768w, ${earthDesktop}`} media="(max-width: 768px) 768px, (max-width: 1440px) 1440px" alt="earth" />
                 <h2 className="absolute bottom-4 left-4 text-2xl font-JosefinSans font-extralight text-white">DEEP<br/>EARTH</h2>
             </div>
         </a>

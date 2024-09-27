@@ -4,7 +4,7 @@ import hamburger from '../img/icon-hamburger.svg'
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-6 bg-transparent absolute w-full top-0 left-0">
+    <nav className="flex justify-between items-center p-6 bg-transparent absolute w-full top-0 left-0 md:p-10">
       <div><img src={logo} alt="Logo" /></div>
       <div><a href="#"><img className="w-8" src={hamburger} alt="Menu" /></a></div>
     </nav>
