@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
       <div className="pb-20 flex flex-col items-center justify-center md:flex-row md:flex-wrap xl:px-60 xl:pb-40">
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={earth} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={earthDesktop} alt="earth" />
@@ -40,7 +40,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={arcade} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={arcadeDesktop} alt="earth" />
@@ -50,7 +50,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={soccer} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={soccerDesktop} alt="earth" />
@@ -60,7 +60,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={grid} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={gridDesktop} alt="earth" />
@@ -70,7 +70,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={above} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={aboveDesktop} alt="earth" />
@@ -80,7 +80,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={borealis} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={borealisDesktop} alt="earth" />
@@ -90,7 +90,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={curiosity} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={curiosityDesktop} alt="earth" />
@@ -100,7 +100,7 @@ const Projects = () => {
         </div>
 
         <div className="p-6 pb-0 xl:flex xl:w-1/4 xl:items-center xl:justify-center xl:pt-12">
-          <a href="#">
+          <a className="hover:opacity-50" href="#">
               <div className="relative">
                 <img className="md:hidden" src={fisheye} alt="earth" />
                 <img className="min-[0px]:max-md:hidden" src={fisheyeDesktop} alt="earth" />

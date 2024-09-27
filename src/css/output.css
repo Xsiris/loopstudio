@@ -919,6 +919,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:opacity-50:hover {
+  opacity: 0.5;
+}
+
 .group:hover .group-hover\:border-b-2 {
   border-bottom-width: 2px;
 }
